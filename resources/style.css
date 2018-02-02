@@ -1,0 +1,138 @@
+/* Universal Styles */
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  width: auto;
+  margin: 0;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  position: fixed;
+  z-index: 1;
+  height: 69px;
+  width: 100%;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+nav a {
+  text-decoration: underline;
+  color: seashell;
+  padding: 0 10px;
+}
+
+/* Mission */
+
+#mission {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  border: 5px solid orange;
+}
+
+.top-section {
+  display: flex;
+  align-items: center;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+}
+
+.top-section .text {
+  width: 100%;
+  text-align: center;
+  background-color: black;
+}
+
+.top-section h4 {
+  margin-top: 0;
+  padding: 5px 0 5px 0;
+}
+
+/* Featured Tea */
+
+#tea {
+  text-align: center;
+  margin: 80px auto;
+  width: 1000px;
+}
+
+.tea-images {
+  display: flex;
+  flex-flow: row wrap;
+  height: 600px;
+  justify-content: center;
+}
+
+.image {
+  margin: 0px 10px 10px 0px;
+}
+
+.image img {
+  height: 200px;
+  width: 300px;
+}
+
+/* Location */
+
+#location {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1200px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-size: stretch;
+  height: 700px;
+  margin: 0 auto;
+}
+
+#location h2 {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.address-content {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  width: 980px;
+  height: 300px;
+  margin: 15px auto;
+}
+
+.address {
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  text-align: center;
+}
+
+/* Contact */
+
+#contact {
+  height: 200px;
+  text-align: center;
+  margin-top: 0px;
+  padding-bottom: 20px;
+}
+
+/* Footer */
+
+footer {
+  text-align: left;
+  margin-left: 20px;
+}
